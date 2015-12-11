@@ -1,0 +1,30 @@
+{
+  "name": "WPostPortal",
+  "authors": [
+    "Jeff Ward <jeffwardcoding@gmail.com>"
+  ],
+  "description": "A wordpress Posting Portal",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "angular-bootstrap": "~0.14.3",
+    "angular-loading-bar": "~0.8.0",
+    "angular-sanitize": "~1.4.8",
+    "angular-ui-select3": "ui-select#*",
+    "font-awesome": "~4.5.0",
+    "angular-ui": "~0.4.0"
+  }
+}
