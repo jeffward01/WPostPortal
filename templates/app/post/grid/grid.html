@@ -1,1 +1,36 @@
-<h3>Post Grid</h3>
+<div class="Container">
+    <h1>View All Posts</h1>
+    <div class="well well-lg row">
+        <div >
+            <div class="PatientsCheckedInTableContainer">
+                <table class="table table-striped">
+                    <thead class="table-header">
+                        <tr>
+                            <th>Post Title</th>
+                            <th>Categories</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Example Title</td>
+                            <td>Free Picks </td>
+                            <td>{{doctor.CheckinDateTime | date:"MM/dd/yyyy 'at' h:mma"}}</td>
+                            <td><button type="button" ng-click="DoctorCheckOut(doctor)" class="btn btn-small btn-block btn-warning"><span class="fa fa-pencil"></span>Edit</button>
+</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</div>

@@ -1,0 +1,8 @@
+input[type="radio"] {
+    padding: 15px;
+    padding-right: 15px;
+}
+
+label{
+    padding-right: 50px;
+}

@@ -1,6 +1,8 @@
 angular.module('app').controller('AppController', function ($rootScope, $scope, $state) {
     
     $scope.LoginToggle = "Hide";
+    $scope.AuthenticationStatus = "Logged Out"
+    
     
     /** ******  left menu  *********************** **/
     $(function () {
