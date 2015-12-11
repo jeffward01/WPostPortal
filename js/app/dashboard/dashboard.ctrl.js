@@ -1,4 +1,4 @@
-angular.module('app').controller('DashboardController', function ($rootScope, $scope, $compile, dashboardService, $http, apiUrl, $log) {
+angular.module('app').controller('DashboardController', function ($rootScope, $scope, $compile, $http, apiUrl, $log) {
 
     
 });

@@ -11,10 +11,12 @@ angular.module('app', ['ui.router', 'ui.bootstrap', 'ngResource', 'countTo', 'an
         .state('app.dashboard', {url: '/dashboard', templateUrl: '/templates/app/dashboard/dashboard.html', controller: 'DashboardController'})
     
         .state('app.posts', {abstract: true, url: '/posts', template: '<ui-view>'})
-            .state('app.posts.grid', {url: '/grid', templateUrl: 'templates/app/Post/grid/grid.html', controller: 'PostGridController'})
-            .state('app.posts.detail', {url: '/grid', templateUrl: 'templates/app/Post/detail/detail.html', controller: 'PostDetailController'});
+            .state('app.posts.grid', {url: '/grid', templateUrl: 'templates/app/post/grid/grid.html', controller: 'PostGridController'})
+            .state('app.posts.detail', {url: '/grid', templateUrl: 'templates/app/post/detail/detail.html', controller: 'PostDetailController'});
         
 });
+//Web Server Address
+angular.module('app').value('apiUrl', 'http://localhost:7000/');
 
 
 

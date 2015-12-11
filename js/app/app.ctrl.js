@@ -1,5 +1,7 @@
 angular.module('app').controller('AppController', function ($rootScope, $scope, $state) {
     
+    $scope.LoginToggle = "Hide";
+    
     /** ******  left menu  *********************** **/
     $(function () {
         $('#sidebar-menu li ul').slideUp();
@@ -57,4 +59,18 @@ angular.module('app').controller('AppController', function ($rootScope, $scope, 
 
     /** ******  /left menu  *********************** **/
 
+    $scope.hideLogin = function(){
+        
+           $('#LoginDiv').slideToggle('fast');
+       
+        
+        if($scope.LoginToggle == "Hide"){
+            $scope.LoginToggle = "Show";
+        } else{
+            $scope.LoginToggle ="Hide";
+        }
+        
+    }
+    
+    
 });

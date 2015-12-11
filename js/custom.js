@@ -306,6 +306,9 @@ $(function () {
 
 /** ******  Accordion  *********************** **/
 /** ******  scrollview  *********************** **/
+
+/* Not Working
+
 $(document).ready(function () {
   
             $(".scroll-view").niceScroll({
@@ -314,4 +317,5 @@ $(document).ready(function () {
             });
 
 });
+*/
 /** ******  /scrollview  *********************** **/
