@@ -25,6 +25,13 @@
     "angular-sanitize": "~1.4.8",
     "angular-ui-select3": "ui-select#*",
     "font-awesome": "~4.5.0",
-    "angular-ui": "~0.4.0"
+    "angular-ui": "~0.4.0",
+    "toastr": "~2.1.2",
+    "animateCSS": "~1.2.1",
+    "angular-local-storage": "~0.2.3",
+    "angular-resource": "~1.4.8",
+    "moment": "~2.10.6",
+    "angular-filter-count-to": "~0.0.3",
+    "angular-spinner": "~0.8.0"
   }
 }
